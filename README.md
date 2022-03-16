@@ -3,7 +3,7 @@ This repository contains the code for the paper "On Controller-Tuning with Time-
 
 ![LQR_Regret_combined6](https://user-images.githubusercontent.com/49341051/158646082-e957109f-cd6a-4a43-8d78-6e9a373f4aab.png)
 
-We propose a novel model for time-varying Bayesian optimization called **UI-TVBO** which leverages the concept of *uncertainty injection*. UI-TVBO is especially suitable for non-stationary time-varying optimization problems such as controller-tuning. Motivated by the LQR controller-tuning problem, we further include convexity constraints on the GP to increase sample efficiency. The model is implemented in [GPyTorch](https://gpytorch.ai) and [BoTorch](https://botorch.org).
+We propose a novel model for time-varying Bayesian optimization called **UI-TVBO** which leverages the concept of *uncertainty injection*. UI-TVBO is especially suitable for non-stationary time-varying optimization problems such as controller-tuning. Motivated by the LQR controller-tuning problem, we further include convexity constraints on the GP to increase sample efficiency. The model is implemented using [GPyTorch](https://gpytorch.ai) and [BoTorch](https://botorch.org).
 
 If you find our code or paper useful, please consider citing
 ```
