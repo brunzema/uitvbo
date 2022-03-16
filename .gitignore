@@ -9,6 +9,10 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+.idea/
+share/
+bin/
+etc/
 develop-eggs/
 dist/
 downloads/
@@ -24,6 +28,7 @@ pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
+pyvenv.cfg
 *.egg
 MANIFEST
 
@@ -67,6 +72,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+.DS_Store
 
 # Sphinx documentation
 docs/_build/
