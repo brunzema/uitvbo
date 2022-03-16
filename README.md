@@ -13,7 +13,7 @@ If you find our code or paper useful, please consider citing
 
 ## Install packages via pip
 
-To install the necessary packages into an environment with python 3.9. use the `requirements.txt` file as
+To install the necessary packages into an environment with python 3.9.10 use the `requirements.txt` file as
 
 ```
 pip install -r requirements.txt
