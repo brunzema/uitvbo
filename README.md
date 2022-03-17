@@ -21,5 +21,5 @@ pip install -r requirements.txt
 
 ## Results and parameters
 
-All the hyperparameters (Gamma prior, feasible set, etc.) used in the paper are specified in the corresponding `main_*` files. The parameters of the simulated inverted pendulum are based on a hardware experiment and are specified in `src/objective_functions_LQR.py`.
-To recreate our results, first install the necessary packages and then just run the `main_*` files. :)
+All the hyperparameters (Gamma prior, feasible set, etc.) used in the paper are specified in the corresponding jupyter notebooks (`*.ipynb`). The parameters of the simulated inverted pendulum are based on a hardware experiment and are specified in `src/objective_functions_LQR.py`.
+To recreate our results, first install the necessary packages and then just run the notebooks. :)
