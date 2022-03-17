@@ -27,7 +27,7 @@ class TVBO_Base:
                  normalize=True,
                  withinmodelcomparison=False,
                  add_noise=True,
-                 delta=1.5,
+                 delta=1.2,
                  **kwargs):
 
         # torch options
@@ -215,7 +215,7 @@ class TimeVaryingBOModel(TVBO_Base):
 
             # safe results at each timestep to reduce memory usage
             forgetting_factor_name = f'{self.forgetting_factor}'.replace('.', '_')
-            with open(f'results_{safe_name}_{forgetting_factor_name}_{trial}.pickle', 'wb') as handle:
+            with open(f'results/results_{safe_name}_{forgetting_factor_name}_{trial}.pickle', 'wb') as handle:
                 pickle.dump(results, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
             # prepare/select data for the next iteration
