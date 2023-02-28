@@ -7,12 +7,13 @@ We propose a novel model for time-varying Bayesian optimization called **UI-TVBO
 
 If you find our code or paper useful, please consider citing
 ```
-@misc{brunzema2022cdc,
-  author = {Brunzema, Paul and von Rohr, Alexander and Trimpe, Sebastian},
-  title = {On Controller Tuning with Time-Varying Bayesian Optimization},
-  archivePrefix = {arXiv},
-  eprint = {2207.11120},
-  year = {2022},
+@inproceedings{brunzema2022controller,
+  title={On controller tuning with time-varying bayesian optimization},
+  author={Brunzema, Paul and Von Rohr, Alexander and Trimpe, Sebastian},
+  booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)},
+  pages={4046--4052},
+  year={2022},
+  organization={IEEE}
 }
 ```
 
