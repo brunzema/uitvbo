@@ -1,5 +1,5 @@
 # On Controller-Tuning with Time-Varying Optimization
-This repository contains the code for the paper "On Controller-Tuning with Time-Varying Optimization (2022)" accepted at the [61st IEEE Conference on Decision and Control](https://cdc2022.ieeecss.org/).
+This repository contains the code for the paper "On Controller-Tuning with Time-Varying Bayesian Optimization (2022)" accepted at the [61st IEEE Conference on Decision and Control](https://cdc2022.ieeecss.org/).
 
 ![LQR_Regret_combined6](https://user-images.githubusercontent.com/49341051/158646082-e957109f-cd6a-4a43-8d78-6e9a373f4aab.png)
 
