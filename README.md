@@ -1,4 +1,4 @@
-# On Controller-Tuning with Time-Varying Optimization
+# On Controller-Tuning with Time-Varying Bayesian Optimization
 This repository contains the code for the paper "On Controller-Tuning with Time-Varying Bayesian Optimization (2022)" accepted at the [61st IEEE Conference on Decision and Control](https://cdc2022.ieeecss.org/).
 
 ![LQR_Regret_combined6](https://user-images.githubusercontent.com/49341051/158646082-e957109f-cd6a-4a43-8d78-6e9a373f4aab.png)
@@ -8,7 +8,7 @@ We propose a novel model for time-varying Bayesian optimization called **UI-TVBO
 If you find our code or paper useful, please consider citing
 ```
 @inproceedings{brunzema2022controller,
-  title={On controller tuning with time-varying bayesian optimization},
+  title={On controller tuning with time-varying {Bayesian} optimization},
   author={Brunzema, Paul and Von Rohr, Alexander and Trimpe, Sebastian},
   booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)},
   pages={4046--4052},
